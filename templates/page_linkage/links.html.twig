@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %} 
+{% block title %}Link Pages{% endblock %} 
+{% block body %}
+<main>
+  <header>
+    <a href="{{ path('about') }}">Home</a>
+    <a href="{{ path('home') }}">About</a>
+  </header>
+</main>
+
+<footer>
+  <p><small>Copyright&copy; Symfony 2024</small></p>
+</footer>
+
+{% endblock %}
